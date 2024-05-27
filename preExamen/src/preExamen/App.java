@@ -177,7 +177,6 @@ public class App {
 					try {
 						String sql = "UPDATE persona SET nombre=?,calorias=? WHERE idpersona=?";
 						pstU = con.prepareStatement(sql);
-						pstU = con.prepareStatement(sql);
 						pstU.setString(1, nombre);
 						pstU.setString(2, calorias);
 						pstU.setString(3, txtId.getText());
